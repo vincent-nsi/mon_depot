@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html" charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src = "script.js"></script> 
+    <title>Mon site Web</title>
+</head>
+  <body> 
+  <h1>Accueil</h1>
+  Créer un compte :
+  <form action="inscription.php" method="POST">
+  Choisissez votre pseudo : <input type="text" name="pseudo" required><br>
+  Choisissez un mot de passe : <input type="text" name="mot_passe" required><br>
+   <input type="submit">
+  </form>
+  Vous avez déjà un compte, connectez-vous :
+  <form action="verification.php" method="POST">
+  Choisissez votre pseudo : <input type="text" name="pseudo" required><br>
+  Choisissez un mot de passe : <input type="text" name="mot_passe" required><br>
+   <input type="submit">
+  </form>  
+  </body>
+</html>
